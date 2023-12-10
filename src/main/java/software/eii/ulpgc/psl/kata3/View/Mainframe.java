@@ -18,4 +18,7 @@ public class Mainframe extends JFrame {
         this.barDisplay = new JFreeChartBarDisplay();
         return barDisplay;
     }
+    public BarDisplay barDisplay(){
+        return barDisplay;
+    }
 }
